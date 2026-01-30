@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-30T12:56:15 GMT+05:30" name="Suite" finished-at="2026-01-30T12:56:39 GMT+05:30" duration-ms="24705">
+    <groups>
+      <group name="sanity">
+        <method signature="BrowserTest.chrome()[pri:0, instance:seleniumproject.BrowserTest@639c2c1d]" name="chrome" class="seleniumproject.BrowserTest"/>
+        <method signature="BrowserTest.firefox()[pri:2, instance:seleniumproject.BrowserTest@639c2c1d]" name="firefox" class="seleniumproject.BrowserTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2026-01-30T12:56:15 GMT+05:30" name="Test" finished-at="2026-01-30T12:56:39 GMT+05:30" duration-ms="24705">
+      <class name="seleniumproject.BrowserTest">
+        <test-method signature="firefox()[pri:2, instance:seleniumproject.BrowserTest@639c2c1d]" started-at="2026-01-30T12:56:15 GMT+05:30" name="firefox" finished-at="2026-01-30T12:56:37 GMT+05:30" duration-ms="21869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefox -->
+        <test-method signature="chrome()[pri:0, instance:seleniumproject.BrowserTest@639c2c1d]" started-at="2026-01-30T12:56:15 GMT+05:30" name="chrome" finished-at="2026-01-30T12:56:31 GMT+05:30" duration-ms="15824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chrome -->
+        <test-method signature="edge()[pri:1, instance:seleniumproject.BrowserTest@639c2c1d]" started-at="2026-01-30T12:56:15 GMT+05:30" name="edge" finished-at="2026-01-30T12:56:39 GMT+05:30" duration-ms="24646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edge -->
+      </class> <!-- seleniumproject.BrowserTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
